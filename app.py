@@ -1,7 +1,7 @@
 # app.py
 # run with python app.py
 # app is here http://127.0.0.1:5000/
-from flask import Flask, render_template_string, send_file
+from flask import Flask, render_template_string, send_file, render_template, request
 import pandas as pd
 import io
 import matplotlib.pyplot as plt
@@ -75,7 +75,8 @@ svg_template = '''
     </body>
     </html>
     '''
-    
+
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -93,6 +94,15 @@ def plot():
 @app.route('/svg')
 def svg():
     return render_template_string(svg_template, svg_data=svg_data)
+
+@app.route('/form')
+def form():
+    return render_template('index.html')
+
+@app.route('/submit', methods=['POST'])
+def submit():
+    name = request.form['name']
+    return f'Hello, {name}!'
   
 if __name__ == "__main__":
     app.run(debug=True)
