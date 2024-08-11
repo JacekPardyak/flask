@@ -2,7 +2,13 @@ import os
 import uuid
 import rpy2.robjects as robjects
 r = robjects.r
-r.source('r-code.R')
+r.source('r_code.R')
+
+def run_r():
+    r.source('r_code.R')
+    return 1
+
+run_r()
 
 r_code = """
 library(ggplot2)
