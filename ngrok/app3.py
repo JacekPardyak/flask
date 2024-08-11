@@ -1,8 +1,13 @@
+#!/usr/bin/env python
 from flask import Flask, render_template, send_from_directory
+import logging, ngrok
 import os
 import uuid
 import rpy2.robjects as robjects
 r = robjects.r
+
+logging.basicConfig(level=logging.INFO)
+listener = ngrok.werkzeug_develop()
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'static/plots'
@@ -34,3 +39,7 @@ def serve_plot(filename):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+# run with
+# NGROK_AUTHTOKEN=2kINMGp8T4PcEzp86qqv5lHjWGg_7XaVCetGfBroeEaRvRk3Q python app.py
