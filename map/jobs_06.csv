@@ -1,4 +1,7 @@
 voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_end
+06,0616,ID: 77869/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel informatyki.,Niedźwiedź,2024-08-13,2024-08-27
+06,0616,ID: 77868/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel matematyki,Niedźwiedź,2024-08-13,2024-08-27
+06,0616,ID: 77392/2024,,Psycholog,Białki Dolne,2024-08-13,2024-08-29
 06,0616,ID: 72249/2024,,Doradca zawodowy,Niedźwiedź,2024-08-05,2024-08-29
 06,0616,ID: 72212/2024,,Psycholog,Niedźwiedź,2024-08-05,2024-08-28
 06,0616,ID: 70364/2024,Przedmioty i zajęcia ogólnokształcące,Język angielski,Stara Dąbia,2024-08-01,2024-08-22
@@ -40,13 +43,11 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0616,ID: 45747/2024,,Psycholog,Dęblin,2024-06-24,2024-08-19
 06,0616,ID: 45713/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel języka polskiego,Dęblin,2024-06-24,2024-08-19
 06,0616,ID: 43753/2024,,Psycholog,Dęblin,2024-06-18,2024-08-14
-06,0616,ID: 42720/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel języka angielskiego,Gózd,2024-06-14,2024-08-11
-06,0616,ID: 42704/2024,,Pedagog specjalny,Gózd,2024-06-14,2024-08-11
-06,0616,ID: 42679/2024,,Psycholog,Gózd,2024-06-14,2024-08-11
 06,0616,ID: 30125/2024,,Pedagog specjalny,Dęblin,2024-05-15,2024-08-14
 06,0616,ID: 30094/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel historii,Dęblin,2024-05-15,2024-08-15
 06,0616,ID: 11364/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel Biologii,Bobrowniki,2024-02-29,2024-08-14
 06,0616,ID: 11363/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel Chemii,Bobrowniki,2024-02-29,2024-08-15
+06,0614,ID: 77158/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel języka polskiego,Leokadiów,2024-08-13,2024-08-27
 06,0614,ID: 75755/2024,,Nauczyciel współorganizujący kształcenie uczniów z niepełnosprawnościami,Nałęczów,2024-08-09,2024-08-19
 06,0614,ID: 75753/2024,,Nauczyciel współorganizujący kształcenie uczniów z niepełnosprawnościami,Nałęczów,2024-08-09,2024-08-19
 06,0614,ID: 74357/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel/matematyka,Puławy,2024-08-07,2024-08-30
@@ -99,15 +100,13 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0612,ID: 69229/2024,,Psycholog,Skoków,2024-07-31,2024-08-18
 06,0612,ID: 62374/2024,,Psycholog,Opole Lubelskie,2024-07-16,2024-08-15
 06,0612,ID: 62372/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel wychowania przedszkolnego,Opole Lubelskie,2024-07-16,2024-08-16
-06,0612,ID: 61796/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel matematyki,Poniatowa,2024-07-15,2024-08-12
 06,0612,ID: 60048/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel wychowania przedszkolnego,Poniatowa,2024-07-11,2024-08-15
 06,0612,ID: 56302/2024,,Psycholog,Wandalin,2024-07-05,2024-08-16
-06,0612,ID: 52680/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel wychowania przedszkolnego,Wandalin,2024-07-02,2024-08-12
-06,0612,ID: 52652/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel edb,Wandalin,2024-07-02,2024-08-12
 06,0612,ID: 50494/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel wychowania fizycznego,Kluczkowice,2024-06-28,2024-08-14
 06,0612,ID: 50466/2024,,Nauczyciel współorganizujący kształcenie uczniów z niepełnosprawnościami,Kluczkowice,2024-06-28,2024-08-13
 06,0612,ID: 50438/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel historii,Kluczkowice,2024-06-28,2024-08-13
 06,0612,ID: 45521/2024,,Psycholog,Józefów nad Wisłą,2024-06-21,2024-08-21
+06,0611,ID: 77882/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel edukacji wczesnoszkolnej,Czerśl,2024-08-13,2024-08-18
 06,0611,ID: 76259/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel religii,Łuków,2024-08-12,2024-08-30
 06,0611,ID: 76242/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel techniki,Łuków,2024-08-12,2024-08-29
 06,0611,ID: 76063/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel języka polskiego,Łuków,2024-08-12,2024-08-29
@@ -128,12 +127,10 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0611,ID: 69047/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel wychowania przedszkolnego,Zarzecz Łukowski,2024-07-31,2024-08-22
 06,0611,ID: 68833/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel edukacji dla bezpieczeństwa oraz edukacji wojskowej.,Radoryż Smolany,2024-07-30,2024-08-22
 06,0611,ID: 68583/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel chemii,Dąbie,2024-07-30,2024-08-20
-06,0611,ID: 68270/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel języka polskiego,Stoczek Łukowski,2024-07-29,2024-08-12
 06,0611,ID: 68170/2024,Przedmioty i zajęcia ogólnokształcące,NAUCZYCIEL MUZYKI,Łuków,2024-07-29,2024-08-19
 06,0611,ID: 68164/2024,Przedmioty i zajęcia ogólnokształcące,NAUCZYCIEL FIZYKI,Łuków,2024-07-29,2024-08-20
 06,0611,ID: 68139/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel języka polskiego,Dębowica,2024-07-29,2024-08-19
 06,0611,ID: 68030/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel języka angielskiego,Wola Gułowska,2024-07-29,2024-08-18
-06,0611,ID: 66044/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel języka angielskiego,Celiny,2024-07-24,2024-08-12
 06,0611,ID: 65814/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel wychowania przedszkolnego,Burzec,2024-07-24,2024-08-25
 06,0611,ID: 65802/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel fizyki,Burzec,2024-07-24,2024-08-24
 06,0611,ID: 65799/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel języka angielskiego,Burzec,2024-07-24,2024-08-25
@@ -179,6 +176,7 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0611,ID: 26939/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel wychowania fizycznego,Radoryż Smolany,2024-05-06,2024-08-29
 06,0611,ID: 26936/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel języka rosyjskiego,Radoryż Smolany,2024-05-06,2024-08-29
 06,0611,ID: 26929/2024,,Psycholog,Radoryż Smolany,2024-05-06,2024-08-30
+06,0607,ID: 77208/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel wychowania przedszkolnego,Olbięcin,2024-08-13,2024-08-19
 06,0607,ID: 76950/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel języka -polskiego,Olbięcin,2024-08-12,2024-08-19
 06,0607,ID: 76938/2024,Przedmioty i zajęcia ogólnokształcące,Psycholog,Olbięcin,2024-08-12,2024-08-19
 06,0607,ID: 76919/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel edukacji dla bezpieczeństwa,Olbięcin,2024-08-12,2024-08-20
@@ -199,6 +197,8 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0607,ID: 47398/2024,,Psycholog,Stróża-Kolonia,2024-06-25,2024-08-28
 06,0607,ID: 39554/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel biologii,Sulów,2024-06-07,2024-08-20
 06,0607,ID: 27440/2024,,Psycholog,Mniszek,2024-05-07,2024-09-02
+06,0609,ID: 77449/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel wychowania przedszkolnego,Panieńszczyzna,2024-08-13,2024-08-26
+06,0609,ID: 77263/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel wychowania przedszkolnego,Panieńszczyzna,2024-08-13,2024-08-31
 06,0609,ID: 76431/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel plastyki,Sobieszczany,2024-08-12,2024-08-17
 06,0609,ID: 76420/2024,,Konserwator,Stasin,2024-08-12,2024-08-19
 06,0609,ID: 76353/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel chemii,Sobieszczany,2024-08-12,2024-08-18
@@ -251,6 +251,7 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0609,ID: 44053/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel języka hiszpańskiego,Sobianowice,2024-06-18,2024-08-23
 06,0609,ID: 34606/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel przedszkola,Garbów,2024-05-27,2024-08-31
 06,0609,ID: 26402/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel przedszkola,Garbów,2024-05-04,2024-08-31
+06,0608,ID: 77107/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel matematyki,Nowa Jedlanka,2024-08-13,2024-08-20
 06,0608,ID: 76705/2024,,Pedagog specjalny,Ostrów Lubelski,2024-08-12,2024-08-18
 06,0608,ID: 76690/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel fizyki,Ostrów Lubelski,2024-08-12,2024-08-19
 06,0608,ID: 76399/2024,,Bibliotekarz,Lubartów,2024-08-12,2024-08-18
@@ -281,7 +282,6 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0608,ID: 62024/2024,,Oligofrenopedagog,Kamionka,2024-07-16,2024-08-14
 06,0608,ID: 62012/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel języka niemieckiego,Kamionka,2024-07-16,2024-08-14
 06,0608,ID: 60791/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel Edukacji dla bezpieczeństwa,Samoklęski,2024-07-12,2024-08-19
-06,0608,ID: 60249/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel języka angielskiego,Tarło,2024-07-11,2024-08-12
 06,0608,ID: 59242/2024,,Psycholog,Górka Lubartowska,2024-07-10,2024-08-25
 06,0608,ID: 59232/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel WOS,Górka Lubartowska,2024-07-10,2024-08-25
 06,0608,ID: 59227/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel historii,Górka Lubartowska,2024-07-10,2024-08-25
@@ -326,6 +326,13 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0605,ID: 54041/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel przyrody,Stojeszyn Pierwszy,2024-07-03,2024-08-13
 06,0605,ID: 41434/2024,,Psycholog,Krzemień Pierwszy,2024-06-12,2024-08-15
 06,0605,ID: 05139/2024,,Psycholog,Godziszów,2024-01-22,2024-08-30
+06,0615,ID: 77735/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel,Wola Chomejowa,2024-08-13,2024-08-29
+06,0615,ID: 77720/2024,,Psycholog,Wola Chomejowa,2024-08-13,2024-08-29
+06,0615,ID: 77028/2024,,Pomoc nauczyciela,Brzozowica Duża,2024-08-12,2024-08-18
+06,0615,ID: 77027/2024,,Nauczyciel współorganizujący kształcenie uczniów z niepełnosprawnościami,Brzozowica Duża,2024-08-12,2024-08-19
+06,0615,ID: 77026/2024,,Surdopedagog,Brzozowica Duża,2024-08-12,2024-08-19
+06,0615,ID: 77025/2024,,Terapeuta pedagogiczny,Brzozowica Duża,2024-08-12,2024-08-19
+06,0615,ID: 77024/2024,,Pedagog specjalny,Brzozowica Duża,2024-08-12,2024-08-18
 06,0615,ID: 76360/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel wychowania fizycznego,Tchórzew-Kolonia,2024-08-12,2024-08-23
 06,0615,ID: 75156/2024,,Oligofrenopedagog,Radzyń Podlaski,2024-08-09,2024-08-15
 06,0615,ID: 75151/2024,,Oligofrenopedagog,Radzyń Podlaski,2024-08-09,2024-08-15
@@ -348,6 +355,18 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0615,ID: 49131/2024,,Psycholog,Czemierniki,2024-06-27,2024-08-31
 06,0615,ID: 47240/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel języka niemieckiego,Komarówka Podlaska,2024-06-25,2024-08-15
 06,0615,ID: 45688/2024,,Psycholog,Tchórzew-Kolonia,2024-06-23,2024-08-16
+06,0663,ID: 77755/2024,,Wychowawca w bursie,Lublin,2024-08-13,2024-08-23
+06,0663,ID: 77644/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel fizyki,Lublin,2024-08-13,2024-08-19
+06,0663,ID: 77631/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel matematyki,Lublin,2024-08-13,2024-08-20
+06,0663,ID: 77467/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel plastyki,Lublin,2024-08-13,2024-08-16
+06,0663,ID: 77420/2024,,Bibliotekarz,Lublin,2024-08-13,2024-08-19
+06,0663,ID: 77416/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel wychowania przedszkolnego,Lublin,2024-08-13,2024-08-25
+06,0663,ID: 77379/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel wychowania przedszkolnego,Lublin,2024-08-13,2024-08-25
+06,0663,ID: 77163/2024,,Terapeuta pedagogiczny,Lublin,2024-08-13,2024-08-20
+06,0663,ID: 77153/2024,,Pedagog specjalny,Lublin,2024-08-13,2024-08-21
+06,0663,ID: 77151/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel geografii,Lublin,2024-08-13,2024-08-23
+06,0663,ID: 77148/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel języka hiszpańskiego,Lublin,2024-08-13,2024-08-23
+06,0663,ID: 77139/2024,,Psycholog,Lublin,2024-08-13,2024-08-21
 06,0663,ID: 76979/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel informatyki,Lublin,2024-08-12,2024-08-29
 06,0663,ID: 76912/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel wychowania przedszkolnego,Lublin,2024-08-12,2024-08-31
 06,0663,ID: 76898/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel muzyki i rytmiki,Lublin,2024-08-12,2024-08-19
@@ -382,22 +401,17 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0663,ID: 74014/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel wychowania przedszkolnego,Lublin,2024-08-07,2024-08-31
 06,0663,ID: 73534/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel fizyki,Lublin,2024-08-07,2024-08-23
 06,0663,ID: 73533/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel języka polskiego,Lublin,2024-08-07,2024-08-23
-06,0663,ID: 73469/2024,,Pedagog specjalny,Lublin,2024-08-06,2024-08-12
 06,0663,ID: 72693/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel chemii,Lublin,2024-08-06,2024-08-18
 06,0663,ID: 72680/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel matematyki,Lublin,2024-08-06,2024-08-18
-06,0663,ID: 72460/2024,Zawodowe,nauczyciel przedmiotów zawodowych- technik hotelarstwa,Lublin,2024-08-05,2024-08-12
 06,0663,ID: 72139/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel matematyki,Lublin,2024-08-05,2024-08-31
 06,0663,ID: 72105/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel języka polskiego,Lublin,2024-08-05,2024-08-31
 06,0663,ID: 71958/2024,Przedmioty i zajęcia ogólnokształcące,Wychowanie Przedszkolne,Lublin,2024-08-05,2024-08-31
 06,0663,ID: 71940/2024,Przedmioty i zajęcia ogólnokształcące,Wychowanie Przedszkolne,Lublin,2024-08-05,2024-08-31
 06,0663,ID: 71770/2024,,Psycholog,Lublin,2024-08-05,2024-08-15
-06,0663,ID: 71664/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel wychowania przedszkolnego,Lublin,2024-08-05,2024-08-12
 06,0663,ID: 71610/2024,Zawodowe,nauczyciel przedmiotów zawodowych,Lublin,2024-08-05,2024-08-15
 06,0663,ID: 71597/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel języka polskiego,Lublin,2024-08-05,2024-08-15
 06,0663,ID: 71436/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel edukacji przedszkolnej,Lublin,2024-08-04,2024-08-31
 06,0663,ID: 71435/2024,,Pedagog specjalny,Lublin,2024-08-04,2024-08-31
-06,0663,ID: 70934/2024,,Bibliotekarz,Lublin,2024-08-02,2024-08-11
-06,0663,ID: 70922/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel przedmiotu: podstawy prawa,Lublin,2024-08-02,2024-08-11
 06,0663,ID: 70889/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel geografii i przyrody,Lublin,2024-08-02,2024-08-30
 06,0663,ID: 70809/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel geografii,Lublin,2024-08-02,2024-08-31
 06,0663,ID: 70393/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel rytmiki w przedszkolu,Lublin,2024-08-01,2024-08-17
@@ -424,7 +438,6 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0663,ID: 69361/2024,Zawodowe,nauczyciel na kierunku opiekun medyczny,Lublin,2024-07-31,2024-08-15
 06,0663,ID: 69359/2024,Zawodowe,nauczyciel na kierunku technik sterylizacji medycznej,Lublin,2024-07-31,2024-08-15
 06,0663,ID: 69262/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel gimnastyki korekcyjnej o charakterze profilaktycznym,Lublin,2024-07-31,2024-08-14
-06,0663,ID: 68760/2024,,Socjoterapeuta,Lublin,2024-07-30,2024-08-12
 06,0663,ID: 68601/2024,,Psycholog,Lublin,2024-07-30,2024-08-15
 06,0663,ID: 68572/2024,,Pedagog specjalny,Lublin,2024-07-30,2024-08-16
 06,0663,ID: 68389/2024,,Pomoc nauczyciela,Lublin,2024-07-30,2024-08-16
@@ -436,7 +449,6 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0663,ID: 67345/2024,Artystyczne,nauczyciel wychowania przedszolnego,Lublin,2024-07-26,2024-08-16
 06,0663,ID: 67282/2024,,Psycholog,Lublin,2024-07-26,2024-08-15
 06,0663,ID: 67008/2024,Zawodowe,Nauczyciel na kierunku Technik Fotografii i Multimediów,Lublin,2024-07-26,2024-08-22
-06,0663,ID: 66749/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel przedmiotowy,Lublin,2024-07-25,2024-08-12
 06,0663,ID: 66745/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel matematyki,Lublin,2024-07-25,2024-08-23
 06,0663,ID: 66681/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel języka angielskiego,Lublin,2024-07-25,2024-08-14
 06,0663,ID: 66497/2024,Zawodowe,nauczyciel przedmiotów teoretycznych i praktycznych,Lublin,2024-07-25,2024-08-19
@@ -459,7 +471,6 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0663,ID: 63581/2024,Artystyczne,nauczyciel rytmiki,Lublin,2024-07-18,2024-08-30
 06,0663,ID: 62383/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel religii,Lublin,2024-07-16,2024-08-15
 06,0663,ID: 62218/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel języka polskiego,Lublin,2024-07-16,2024-08-15
-06,0663,ID: 61761/2024,,Pedagog,Lublin,2024-07-15,2024-08-11
 06,0663,ID: 60508/2024,Przedmioty i zajęcia ogólnokształcące,NAUCZYCIEL WYCHOWANIA PRZEDSZKOLNEGO,Lublin,2024-07-11,2024-09-01
 06,0663,ID: 60080/2024,,Pedagog specjalny,Lublin,2024-07-11,2024-08-30
 06,0663,ID: 59852/2024,Przedmioty i zajęcia ogólnokształcące,Opiekunka w żłobku,Lublin,2024-07-11,2024-08-31
@@ -499,6 +510,7 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0663,ID: 01465/2024,,Psycholog,Lublin,2024-01-03,2024-08-19
 06,0663,ID: 01461/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel wychowania fizycznego,Lublin,2024-01-03,2024-08-19
 06,0663,ID: 01456/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel matematyki,Lublin,2024-01-03,2024-08-19
+06,0602,ID: 77254/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel Bibliotekarz,Tarnogród,2024-08-13,2024-08-22
 06,0602,ID: 75952/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel katechezy,Chmielek,2024-08-12,2024-08-19
 06,0602,ID: 75704/2024,Przedmioty i zajęcia ogólnokształcące,instruktor tańca,Biłgoraj,2024-08-09,2024-08-31
 06,0602,ID: 75260/2024,,Psycholog,Zamch,2024-08-09,2024-08-25
@@ -544,6 +556,11 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0602,ID: 11944/2024,,Psycholog,Wola Radzięcka,2024-03-04,2024-08-16
 06,0602,ID: 09913/2024,,Psycholog,Biszcza,2024-02-20,2024-08-30
 06,0602,ID: 01662/2024,,Psycholog,Gózd Lipiński,2024-01-04,2024-08-31
+06,0601,ID: 77641/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel wychowania fizycznego,Komarno-Kolonia,2024-08-13,2024-08-20
+06,0601,ID: 77550/2024,,Psycholog,Wisznice,2024-08-13,2024-08-22
+06,0601,ID: 77520/2024,,Wychowawca w internacie,Wisznice,2024-08-13,2024-08-23
+06,0601,ID: 77465/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel wychowania przedszkolnego,Misie,2024-08-13,2024-08-18
+06,0601,ID: 77196/2024,,Nauczyciel współorganizujący kształcenie uczniów z niepełnosprawnościami,Dobryń Duży,2024-08-13,2024-08-20
 06,0601,ID: 76806/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel wychowania przerdszkolnego,Swory,2024-08-12,2024-08-15
 06,0601,ID: 76771/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel matematyki,Międzyrzec Podlaski,2024-08-12,2024-08-19
 06,0601,ID: 76211/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel edukacji wczesnoszkolnej,Rzeczyca,2024-08-12,2024-08-18
@@ -566,7 +583,6 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0601,ID: 71620/2024,,Psycholog,Sitnik,2024-08-05,2024-08-21
 06,0601,ID: 69730/2024,,Logopeda,Motwica,2024-08-01,2024-08-31
 06,0601,ID: 69728/2024,,Pedagog specjalny,Motwica,2024-08-01,2024-08-31
-06,0601,ID: 69434/2024,,Pedagog specjalny,Szóstka,2024-07-31,2024-08-11
 06,0601,ID: 69060/2024,,Nauczyciel współorganizujący kształcenie uczniów z niepełnosprawnościami,Rossosz,2024-07-31,2024-08-13
 06,0601,ID: 69000/2024,Przedmioty i zajęcia ogólnokształcące,Nuczyciel wychowania przedszkolnego,Rakowiska,2024-07-30,2024-08-19
 06,0601,ID: 68999/2024,,Pedagog,Rakowiska,2024-07-30,2024-08-19
@@ -598,7 +614,6 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0601,ID: 59280/2024,,Psycholog,Kobylany,2024-07-10,2024-08-13
 06,0601,ID: 57538/2024,,Psycholog,Cicibór Duży,2024-07-08,2024-08-19
 06,0601,ID: 57488/2024,,Surdopedagog,Cicibór Duży,2024-07-08,2024-08-20
-06,0601,ID: 57434/2024,,Tyflopedagog,Misie,2024-07-08,2024-08-11
 06,0601,ID: 56296/2024,,Logopeda,Chotyłów,2024-07-05,2024-08-22
 06,0601,ID: 56284/2024,,Nauczyciel współorganizujący kształcenie uczniów z niepełnosprawnościami,Chotyłów,2024-07-05,2024-08-22
 06,0601,ID: 56250/2024,,Doradca zawodowy,Chotyłów,2024-07-05,2024-08-22
@@ -623,6 +638,10 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0601,ID: 17023/2024,,Psycholog,Połoski,2024-03-27,2024-08-16
 06,0601,ID: 14744/2024,,Psycholog,Chotyłów,2024-03-18,2024-08-31
 06,0601,ID: 00047/2023,,Psycholog,Międzyrzec Podlaski,2023-12-05,2024-08-13
+06,0613,ID: 77832/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel historii,Podedwórze,2024-08-13,2024-08-26
+06,0613,ID: 77824/2024,,Psycholog,Podedwórze,2024-08-13,2024-08-27
+06,0613,ID: 77817/2024,,Pedagog specjalny,Podedwórze,2024-08-13,2024-08-26
+06,0613,ID: 77815/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel edukacji dla bezpieczeństwa,Podedwórze,2024-08-13,2024-08-27
 06,0613,ID: 74454/2024,,Psycholog,Tyśmienica,2024-08-08,2024-08-31
 06,0613,ID: 71744/2024,,Tyflopedagog,Siemień,2024-08-05,2024-08-18
 06,0613,ID: 71734/2024,,Surdopedagog,Siemień,2024-08-05,2024-08-18
@@ -643,6 +662,7 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0613,ID: 43092/2024,,Psycholog,Dawidy,2024-06-16,2024-08-30
 06,0613,ID: 40195/2024,,Psycholog,Kolano-Kolonia,2024-06-10,2024-08-29
 06,0613,ID: 34703/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel matematyki,Dawidy,2024-05-28,2024-08-15
+06,0617,ID: 77710/2024,,Wychowawca w specjalnym ośrodku szkolno-wychowawczym,Kozice Dolne-Kolonia,2024-08-13,2024-08-25
 06,0617,ID: 75025/2024,,Wychowawca w internacie,Świdnik,2024-08-08,2024-08-19
 06,0617,ID: 74790/2024,,Psycholog,Mełgiew,2024-08-08,2024-08-19
 06,0617,ID: 74210/2024,Zawodowe,Nauczyciel opiekun medyczny,Świdnik,2024-08-07,2024-11-30
@@ -657,6 +677,7 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0617,ID: 58379/2024,,Pedagog specjalny,Mełgiew,2024-07-09,2024-08-19
 06,0617,ID: 58348/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel historii,Mełgiew,2024-07-09,2024-08-20
 06,0617,ID: 55771/2024,Zawodowe,Nauczyciel praktycznej nauki zawodu / specjalista,Świdnik,2024-07-04,2024-08-16
+06,0610,ID: 77229/2024,Zawodowe,nauczyciel zawodowych przedmiotów kosmetologicznych,Ludwin,2024-08-13,2024-08-16
 06,0610,ID: 76101/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel geografii,Łęczna,2024-08-12,2024-08-19
 06,0610,ID: 75955/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel języka niemieckiego,Łęczna,2024-08-12,2024-08-26
 06,0610,ID: 75858/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel chemii,Garbatówka,2024-08-11,2024-08-25
@@ -695,7 +716,6 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0610,ID: 61487/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel matematyki,Głębokie,2024-07-15,2024-08-20
 06,0610,ID: 60462/2024,,Pedagog specjalny,Nadrybie-Dwór,2024-07-11,2024-08-14
 06,0610,ID: 60457/2024,,Pedagog,Nadrybie-Dwór,2024-07-11,2024-08-13
-06,0610,ID: 58406/2024,,Psycholog,Milejów-Osada,2024-07-09,2024-08-12
 06,0610,ID: 58249/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel fizyki,Malinówka,2024-07-09,2024-08-14
 06,0610,ID: 51141/2024,,Bibliotekarz,Charlęż-Kolonia,2024-07-01,2024-08-30
 06,0610,ID: 51129/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel fizyki,Charlęż-Kolonia,2024-07-01,2024-08-30
@@ -748,6 +768,7 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0606,ID: 24187/2024,,Pedagog specjalny,Jaślików,2024-04-23,2024-08-13
 06,0606,ID: 24185/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel wychowania przedszkolnego,Stężyca-Kolonia,2024-04-23,2024-08-14
 06,0606,ID: 08449/2024,Przedmioty i zajęcia ogólnokształcące,psycholog,Izbica,2024-02-11,2024-08-30
+06,0620,ID: 77440/2024,,Psycholog,Zaburze,2024-08-13,2024-08-28
 06,0620,ID: 76020/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel edukacji wczesnoszkolnej,Czarnystok,2024-08-12,2024-08-18
 06,0620,ID: 75675/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel wychowania przedszkolnego,Skierbieszów,2024-08-09,2024-08-19
 06,0620,ID: 75670/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel plastyki,Skierbieszów,2024-08-09,2024-08-19
@@ -788,17 +809,8 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0620,ID: 56449/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel geografii,Szczebrzeszyn,2024-07-05,2024-08-16
 06,0620,ID: 56069/2024,,Nauczyciel współorganizujący kształcenie uczniów z niepełnosprawnościami,Zawalów,2024-07-05,2024-08-19
 06,0620,ID: 56055/2024,,Psycholog,Borowina Sitaniecka,2024-07-05,2024-08-20
-06,0620,ID: 55711/2024,,Logopeda,Zaburze,2024-07-04,2024-08-11
-06,0620,ID: 55705/2024,,Pedagog,Zaburze,2024-07-04,2024-08-11
-06,0620,ID: 55658/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel fizyki,Zaburze,2024-07-04,2024-08-11
-06,0620,ID: 55651/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel biologii,Zaburze,2024-07-04,2024-08-12
-06,0620,ID: 55507/2024,,Psycholog,Zaburze,2024-07-04,2024-08-12
-06,0620,ID: 49110/2024,,Psycholog,Niedzieliska,2024-06-27,2024-08-12
-06,0620,ID: 49057/2024,Przedmioty i zajęcia ogólnokształcące,fizyka,Niedzieliska,2024-06-27,2024-08-11
 06,0620,ID: 47471/2024,,Terapeuta pedagogiczny,Czarnystok,2024-06-25,2024-08-19
-06,0620,ID: 47462/2024,,Logopeda,Czarnystok,2024-06-25,2024-08-11
 06,0620,ID: 47458/2024,,Doradca zawodowy,Czarnystok,2024-06-25,2024-08-19
-06,0620,ID: 47439/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel informatyki,Czarnystok,2024-06-25,2024-08-11
 06,0620,ID: 47434/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel fizyki,Czarnystok,2024-06-25,2024-08-19
 06,0620,ID: 47429/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel biologii,Czarnystok,2024-06-25,2024-08-19
 06,0620,ID: 47416/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel wiedzy o społeczeństwie,Czarnystok,2024-06-25,2024-08-19
@@ -826,9 +838,13 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0661,ID: 73774/2024,,Psycholog,Biała Podlaska,2024-08-07,2024-08-18
 06,0661,ID: 73771/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel wychowanie przedszkolnego,Biała Podlaska,2024-08-07,2024-08-18
 06,0661,ID: 67178/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel fizyki,Biała Podlaska,2024-07-26,2024-08-15
+06,0603,ID: 77865/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel fizyki,Czerniejów,2024-08-13,2024-08-30
+06,0603,ID: 77863/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel chemii,Czerniejów,2024-08-13,2024-08-30
+06,0603,ID: 77861/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel języka polskiego,Strachosław,2024-08-13,2024-08-21
+06,0603,ID: 77805/2024,,Nauczyciel współorganizujący kształcenie uczniów z niepełnosprawnościami,Dubienka,2024-08-13,2024-08-26
+06,0603,ID: 77387/2024,,Nauczyciel współorganizujący kształcenie uczniów z niepełnosprawnościami,Brzeźno,2024-08-13,2024-08-30
 06,0603,ID: 75496/2024,,Psycholog,Czerniejów,2024-08-09,2024-08-25
 06,0603,ID: 75073/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel informatyki i matematyki,Petryłów,2024-08-08,2024-08-19
-06,0603,ID: 75071/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel matematyki i informatyki,Petryłów,2024-08-08,2024-08-12
 06,0603,ID: 74485/2024,,Nauczyciel współorganizujący kształcenie uczniów z niepełnosprawnościami,Siedliszcze,2024-08-08,2024-08-23
 06,0603,ID: 73981/2024,,Psycholog,Rejowiec Fabryczny,2024-08-07,2024-08-18
 06,0603,ID: 73718/2024,Przedmioty i zajęcia ogólnokształcące,NAUCZYCIEL EDUKACJI WCZESNOSZKOLNEJ,Wólka Kańska,2024-08-07,2024-08-29
@@ -883,3 +899,142 @@ voivodeship_id,county_id,job_id,job_category,job_title,job_place,job_start,job_e
 06,0618,ID: 40266/2024,,Psycholog,Tomaszów Lubelski,2024-06-10,2024-08-30
 06,0618,ID: 38881/2024,,Psycholog,Czartowczyk,2024-06-06,2024-08-29
 06,0618,ID: 32115/2024,,Psycholog,Jarczów,2024-05-21,2024-08-14
+06,0664,ID: 76507/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel przedmiotów wojskowych,Zamość,2024-08-12,2024-08-20
+06,0664,ID: 76495/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel przedmiotów policyjnych,Zamość,2024-08-12,2024-08-20
+06,0664,ID: 74545/2024,,Nauczyciel współorganizujący kształcenie uczniów z niepełnosprawnościami,Zamość,2024-08-08,2024-08-24
+06,0664,ID: 70062/2024,,Pedagog,Zamość,2024-08-01,2024-08-15
+06,0664,ID: 70038/2024,,Pedagog,Zamość,2024-08-01,2024-08-16
+06,0664,ID: 70007/2024,,Pedagog,Zamość,2024-08-01,2024-08-16
+06,0664,ID: 69498/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel fizyki,Zamość,2024-07-31,2024-08-29
+06,0664,ID: 69493/2024,Zawodowe,Nauczyciel przedmiotów zawodowych branży logistycznej,Zamość,2024-07-31,2024-08-30
+06,0664,ID: 69485/2024,Zawodowe,Nauczyciel przedmiotów zawodowych branży informatycznej,Zamość,2024-07-31,2024-08-30
+06,0664,ID: 68266/2024,,Nauczyciel współorganizujący kształcenie uczniów z niepełnosprawnościami,Zamość,2024-07-29,2024-08-25
+06,0664,ID: 66939/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel matematyki,Zamość,2024-07-25,2024-08-26
+06,0664,ID: 64242/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel geografii,Zamość,2024-07-19,2024-08-14
+06,0664,ID: 64236/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel geografii,Zamość,2024-07-19,2024-08-14
+06,0664,ID: 64220/2024,,Doradca zawodowy,Zamość,2024-07-19,2024-08-14
+06,0664,ID: 64217/2024,,Psycholog,Zamość,2024-07-19,2024-08-14
+06,0664,ID: 64199/2024,,Surdopedagog,Zamość,2024-07-19,2024-08-15
+06,0664,ID: 64186/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel języka polskiego,Zamość,2024-07-19,2024-08-14
+06,0664,ID: 64183/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel języka polskiego,Zamość,2024-07-19,2024-08-15
+06,0664,ID: 61930/2024,,Logopeda,Zamość,2024-07-15,2024-08-28
+06,0664,ID: 57054/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel biologii,Zamość,2024-07-06,2024-08-30
+06,0664,ID: 51278/2024,,Psycholog,Zamość,2024-07-01,2024-08-30
+06,0664,ID: 46726/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel języka niemieckiego,Zamość,2024-06-25,2024-08-19
+06,0664,ID: 43900/2024,,Pedagog,Zamość,2024-06-18,2024-08-15
+06,0664,ID: 43893/2024,,Psycholog,Zamość,2024-06-18,2024-08-15
+06,0664,ID: 39792/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel Wychowania przedszkolnego,Zamość,2024-06-07,2024-08-31
+06,0664,ID: 29859/2024,Zawodowe,nauczyciel praktycznej nauki zawodu,Zamość,2024-05-14,2024-08-19
+06,0664,ID: 29857/2024,Zawodowe,nauka jazdy kategorii B i T,Zamość,2024-05-14,2024-08-19
+06,0664,ID: 29855/2024,Zawodowe,nauczyciel praktycznej nauki zawodu,Zamość,2024-05-14,2024-08-22
+06,0664,ID: 29853/2024,Zawodowe,nauczyciel praktycznej nauki zawodu,Zamość,2024-05-14,2024-08-19
+06,0664,ID: 29851/2024,Zawodowe,nauczyciel praktycznej nauki zawodu,Zamość,2024-05-14,2024-08-19
+06,0662,ID: 74975/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel edukacji wczesnoszkolnej,Chełm,2024-08-08,2024-08-19
+06,0662,ID: 73330/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel muzyki,Chełm,2024-08-06,2024-08-31
+06,0662,ID: 72778/2024,Zawodowe,Nauczyciel przedmiotów zawodowych z zakresu programowania,Chełm,2024-08-06,2024-08-31
+06,0662,ID: 60541/2024,Zawodowe,Nauczyciel przedmiotu Podstawy stomatologii,Chełm,2024-07-12,2024-08-13
+06,0662,ID: 60540/2024,Zawodowe,Nauczyciel przedmiotu Pracownia działań zawodowych higienistki,Chełm,2024-07-12,2024-08-13
+06,0662,ID: 60539/2024,Zawodowe,Nauczyciel przedmiotu Pracownia technologii postaci leków,Chełm,2024-07-12,2024-08-13
+06,0662,ID: 60538/2024,Zawodowe,Nauczyciel przedmiotu Analiza leków i Pracownia analizy leków,Chełm,2024-07-12,2024-08-13
+06,0662,ID: 60537/2024,Zawodowe,Nauczyciel przedmiotu Pracownia masażu,Chełm,2024-07-12,2024-08-14
+06,0662,ID: 54770/2024,,Doradca zawodowy,Chełm,2024-07-03,2024-08-30
+06,0662,ID: 51096/2024,,Psycholog,Chełm,2024-07-01,2024-08-23
+06,0662,ID: 50272/2024,Zawodowe,Nauczyciel przedmiotów zawodowych architektura krajobrazu,Chełm,2024-06-28,2024-08-30
+06,0662,ID: 50262/2024,Zawodowe,Nauczyciel przedmiotow zawodowych administracyjnych,Chełm,2024-06-28,2024-08-29
+06,0662,ID: 50246/2024,Zawodowe,Nauczyciel przedmiotów zawodowych - nauka jazdy kat.T,Chełm,2024-06-28,2024-08-30
+06,0662,ID: 50239/2024,Zawodowe,Nauczyciel przedmiotów zawodowych - nauka jazdy kat.B,Chełm,2024-06-28,2024-08-30
+06,0662,ID: 50238/2024,Zawodowe,Nauczyciel przedmiotów zawodowych - nauka jazdy kat.B,Chełm,2024-06-28,2024-08-30
+06,0662,ID: 50237/2024,Zawodowe,Nauczyciel przedmiotów zawodowych - nauka jazdy kat.B,Chełm,2024-06-28,2024-08-29
+06,0662,ID: 50223/2024,Zawodowe,Nauczyciel przedmiotów zawodowych budowlanych,Chełm,2024-06-28,2024-08-30
+06,0662,ID: 50222/2024,Zawodowe,Nauczyciel przedmiotów zawodowych budowlanych,Chełm,2024-06-28,2024-08-30
+06,0662,ID: 50220/2024,Zawodowe,Nauczyciel przedmiotów zawodowych budowlanych,Chełm,2024-06-28,2024-08-29
+06,0662,ID: 50207/2024,Zawodowe,Nauczyciel przedmiotów zawodowych - mechanik poj.samochodowych,Chełm,2024-06-28,2024-08-30
+06,0662,ID: 50203/2024,Zawodowe,Nauczyciel przedmiotów zawodowych - mechanik poj.samochodowych,Chełm,2024-06-28,2024-08-30
+06,0662,ID: 50201/2024,Zawodowe,Nauczyciel przedmiotów zawodowych - mechanik poj.samochodowych,Chełm,2024-06-28,2024-08-30
+06,0662,ID: 50186/2024,Zawodowe,Nauczyciel przedmiotów zawodowych mechanicznych,Chełm,2024-06-28,2024-08-29
+06,0662,ID: 50139/2024,Zawodowe,Nauczyciel przedmiotow zawodowych - ochrona osób i mienia,Chełm,2024-06-28,2024-08-29
+06,0662,ID: 50132/2024,Zawodowe,Nauczyciel przedmiotów zawodowych - krawiec,Chełm,2024-06-28,2024-08-29
+06,0662,ID: 50126/2024,Zawodowe,Nauczyciel przedmiotów zawodowych fotograficznych,Chełm,2024-06-28,2024-08-29
+06,0662,ID: 50117/2024,Zawodowe,Nauczyciel przedmiotów zawodowych - transport drogowy,Chełm,2024-06-28,2024-08-30
+06,0662,ID: 50104/2024,Zawodowe,Nauczyciel przedmiotów zawodowych - magazynier logistyk,Chełm,2024-06-28,2024-08-29
+06,0662,ID: 50093/2024,Zawodowe,Nauczyciel przedmiotów zawodowych kosmetycznych,Chełm,2024-06-28,2024-08-29
+06,0662,ID: 50082/2024,Zawodowe,Nauczyciel przedmiotów zawodowych ekonomicznych,Chełm,2024-06-28,2024-08-30
+06,0662,ID: 50066/2024,Zawodowe,Nauczyciel przedmiotów zawodowych - fryzjer,Chełm,2024-06-28,2024-08-30
+06,0662,ID: 50061/2024,Zawodowe,Nauczyciel przedmiotów zawodowych - florysta,Chełm,2024-06-28,2024-08-30
+06,0662,ID: 50051/2024,Zawodowe,Nauczyciel przedmiotow zawodowych elektrycznych,Chełm,2024-06-28,2024-08-30
+06,0662,ID: 49948/2024,Zawodowe,Nauczyciel przedmiotów elektronicznych,Chełm,2024-06-28,2024-08-30
+06,0662,ID: 49733/2024,Zawodowe,Nauczyciel przedmiotów zawodowych - elektromechanik poj.samoch.,Chełm,2024-06-27,2024-08-30
+06,0662,ID: 49727/2024,Zawodowe,Nauczycie przedmiotów zawodowych automatyka i mechatronika,Chełm,2024-06-27,2024-08-30
+06,0662,ID: 49719/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel biznes i zarządzanie,Chełm,2024-06-27,2024-08-29
+06,0662,ID: 49716/2024,Zawodowe,Nauczyciel BHP,Chełm,2024-06-27,2024-08-30
+06,0662,ID: 49687/2024,,Terapeuta pedagogiczny,Chełm,2024-06-27,2024-08-30
+06,0662,ID: 49678/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel wiedzy o społeczeństwie,Chełm,2024-06-27,2024-08-29
+06,0662,ID: 49670/2024,,Pedagog specjalny,Chełm,2024-06-27,2024-08-29
+06,0662,ID: 49662/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel języka polskiego,Chełm,2024-06-27,2024-08-29
+06,0662,ID: 49650/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel matematyki,Chełm,2024-06-27,2024-08-29
+06,0662,ID: 49642/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel j.angielskiego,Chełm,2024-06-27,2024-08-29
+06,0662,ID: 49640/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel informatyki,Chełm,2024-06-27,2024-08-30
+06,0662,ID: 49635/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel geografii,Chełm,2024-06-27,2024-08-29
+06,0662,ID: 49622/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel historii,Chełm,2024-06-27,2024-08-30
+06,0662,ID: 49617/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel fizyki,Chełm,2024-06-27,2024-08-30
+06,0662,ID: 49605/2024,,Logopeda,Chełm,2024-06-27,2024-08-29
+06,0662,ID: 49598/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel chemii,Chełm,2024-06-27,2024-08-30
+06,0662,ID: 49591/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel biologii,Chełm,2024-06-27,2024-08-30
+06,0662,ID: 49589/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel wychowania przedszkolnego,Chełm,2024-06-27,2024-08-30
+06,0662,ID: 49559/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel języka angielskiego,Chełm,2024-06-27,2024-08-30
+06,0662,ID: 49419/2024,,Psycholog,Chełm,2024-06-27,2024-08-29
+06,0662,ID: 49399/2024,Przedmioty i zajęcia ogólnokształcące,Katecheta,Chełm,2024-06-27,2024-08-30
+06,0662,ID: 42245/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel biologii,Chełm,2024-06-13,2024-08-31
+06,0662,ID: 42243/2024,Zawodowe,Nauczyciel przedmiotów zawodowych elektroniczno - elektrycznych,Chełm,2024-06-13,2024-08-31
+06,0662,ID: 42242/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel fizyki,Chełm,2024-06-13,2024-08-31
+06,0662,ID: 42240/2024,Zawodowe,Nauczyciel przedmiotów zawodowych graficznych,Chełm,2024-06-13,2024-08-31
+06,0662,ID: 42232/2024,Zawodowe,Nauczyciel informatyki,Chełm,2024-06-13,2024-08-31
+06,0662,ID: 42231/2024,Zawodowe,Nauczyciel informatyki,Chełm,2024-06-13,2024-08-31
+06,0662,ID: 42226/2024,Zawodowe,Nauczyciel mechatroniki,Chełm,2024-06-13,2024-08-30
+06,0662,ID: 42223/2024,,Pedagog,Chełm,2024-06-13,2024-08-30
+06,0662,ID: 42222/2024,Zawodowe,nauczyciel przedmiotów zawodowych samochodowych,Chełm,2024-06-13,2024-08-31
+06,0662,ID: 42210/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel wychowania do życia w rodzinie,Chełm,2024-06-13,2024-08-30
+06,0662,ID: 42208/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel podstaw przedsiębiorczości,Chełm,2024-06-13,2024-08-30
+06,0604,ID: 74206/2024,,Nauczyciel współorganizujący kształcenie uczniów z niepełnosprawnościami,Mircze,2024-08-07,2024-08-19
+06,0604,ID: 74173/2024,,Psycholog,Mircze,2024-08-07,2024-08-20
+06,0604,ID: 68916/2024,,Pedagog,Hrubieszów,2024-07-30,2024-08-19
+06,0604,ID: 66059/2024,,Psycholog,Wiszniów,2024-07-24,2024-08-22
+06,0604,ID: 64416/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel geografii,Dąbrowa,2024-07-21,2024-08-30
+06,0604,ID: 64415/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel plastyki,Dąbrowa,2024-07-21,2024-08-31
+06,0604,ID: 64414/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel techniki,Dąbrowa,2024-07-21,2024-08-31
+06,0604,ID: 64413/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel informatyki,Dąbrowa,2024-07-21,2024-08-31
+06,0604,ID: 64412/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel muzyki,Dąbrowa,2024-07-21,2024-08-31
+06,0604,ID: 64343/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel,Hrubieszów,2024-07-19,2024-08-16
+06,0604,ID: 64341/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel,Hrubieszów,2024-07-19,2024-08-31
+06,0604,ID: 64338/2024,Przedmioty i zajęcia ogólnokształcące,rehabilitant,Hrubieszów,2024-07-19,2024-08-31
+06,0604,ID: 64326/2024,,Psycholog,Hrubieszów,2024-07-19,2024-08-30
+06,0604,ID: 62759/2024,,Psycholog,Werbkowice,2024-07-17,2024-08-26
+06,0604,ID: 61699/2024,,Pedagog specjalny,Horodło,2024-07-15,2024-08-29
+06,0604,ID: 60986/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel geografii,Strzyżów,2024-07-12,2024-08-30
+06,0604,ID: 57224/2024,,Logopeda,Strzyżów,2024-07-08,2024-08-29
+06,0604,ID: 57190/2024,,Surdopedagog,Strzyżów,2024-07-08,2024-08-30
+06,0604,ID: 57077/2024,,Pedagog specjalny,Dąbrowa,2024-07-07,2024-08-24
+06,0604,ID: 57076/2024,,Psycholog,Dąbrowa,2024-07-07,2024-08-24
+06,0604,ID: 56172/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel edukacji wczesnoszkolnej,Szpikołosy,2024-07-05,2024-08-17
+06,0604,ID: 56162/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel plastyki,Szpikołosy,2024-07-05,2024-08-18
+06,0604,ID: 54605/2024,,Logopeda,Stefankowice,2024-07-03,2024-08-18
+06,0604,ID: 54587/2024,,Psycholog,Stefankowice,2024-07-03,2024-08-18
+06,0604,ID: 54579/2024,,Psycholog,Stefankowice,2024-07-03,2024-08-18
+06,0604,ID: 54545/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel EDB,Stefankowice,2024-07-03,2024-08-19
+06,0604,ID: 53836/2024,,Pedagog specjalny,Mieniany,2024-07-03,2024-08-14
+06,0604,ID: 53826/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel języka angielskiego,Mieniany,2024-07-03,2024-08-15
+06,0604,ID: 53814/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel języka rosyjskiego,Mieniany,2024-07-03,2024-08-14
+06,0604,ID: 49588/2024,,Nauczyciel współorganizujący kształcenie uczniów z niepełnosprawnościami,Husynne,2024-06-27,2024-08-15
+06,0604,ID: 49581/2024,,Nauczyciel współorganizujący kształcenie uczniów z niepełnosprawnościami,Husynne,2024-06-27,2024-08-16
+06,0604,ID: 49573/2024,Przedmioty i zajęcia ogólnokształcące,Nauczyciel chemii,Husynne,2024-06-27,2024-08-16
+06,0604,ID: 45778/2024,Zawodowe,nauczyciel informatyki,Hrubieszów,2024-06-24,2024-08-22
+06,0604,ID: 45770/2024,,Psycholog,Hrubieszów,2024-06-24,2024-08-23
+06,0604,ID: 43978/2024,,Doradca zawodowy,Kozodawy,2024-06-18,2024-08-18
+06,0604,ID: 43961/2024,,Psycholog,Kozodawy,2024-06-18,2024-08-19
+06,0604,ID: 38041/2024,,Tyflopedagog,Husynne,2024-06-05,2024-08-15
+06,0604,ID: 38030/2024,,Psycholog,Husynne,2024-06-05,2024-08-16
+06,0604,ID: 37321/2024,,Pedagog,Przewodów,2024-06-04,2024-08-15
+06,0604,ID: 34708/2024,,Psycholog,Malice,2024-05-28,2024-08-31
+06,0604,ID: 27108/2024,,Psycholog,Horodło,2024-05-07,2024-08-30
+06,0604,ID: 06937/2024,,Psycholog,Teratyn,2024-02-01,2024-08-31
+06,0604,ID: 05167/2024,Przedmioty i zajęcia ogólnokształcące,nauczyciel wychowania przedszkolnego,Hrubieszów,2024-01-22,2024-08-20
