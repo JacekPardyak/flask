@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style type="text/css">
+.inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.str {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.std {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
+  <meta charset="UTF-8">
+  <title>D3.js Map of Provinces (2024)</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    svg {
+      border: 1px solid #ccc;
+    }
+    .province {
+      fill: lightblue;
+      stroke: #333;
+      stroke-width: 0.5;
+    }
+    .province:hover {
+      fill: coral;
+    }
+    .tooltip {
+      position: absolute;
+      padding: 5px;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      border-radius: 3px;
+      pointer-events: none;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Map of Provinces (2024)</h1>
+  <svg id="map" width="800" height="600"></svg>
+  <div id="tooltip" class="tooltip" style="display: none;"></div>
+  
+  <script>
+    // URL for GeoJSON data
+    const geojsonUrl = "https://service.pdok.nl/cbs/gebiedsindelingen/2024/wfs/v1_0?request=GetFeature&service=WFS&version=2.0.0&outputFormat=application%2Fjson&typeName=gebiedsindelingen:provincie_gegeneraliseerd";
+
+    // Set dimensions for the SVG
+    const width = 800;
+    const height = 600;
+
+    // Create an SVG canvas
+    const svg = d3.select("#map")
+                  .attr("width", width)
+                  .attr("height", height);
+
+    // Create a tooltip
+    const tooltip = d3.select("#tooltip");
+
+    // Define a projection and path generator
+    const projection = d3.geoMercator()
+                         .scale(6000) // Adjust scale for Netherlands
+                         .translate([width / 2, height / 2]); // Center map
+    const path = d3.geoPath().projection(projection);
+
+    // Load GeoJSON data and render the map
+    d3.json(geojsonUrl).then(geojsonData => {
+      svg.selectAll(".province")
+        .data(geojsonData.features)
+        .enter()
+        .append("path")
+        .attr("class", "province")
+        .attr("d", path)
+        .on("mouseover", (event, d) => {
+          d3.select(event.target).attr("fill", "orange");
+          tooltip.style("display", "block")
+                 .html(`<strong>${d.properties.statnaam}</strong>`);
+        })
+        .on("mousemove", (event) => {
+          tooltip.style("left", event.pageX + 10 + "px")
+                 .style("top", event.pageY + 10 + "px");
+        })
+        .on("mouseout", (event) => {
+          d3.select(event.target).attr("fill", "lightblue");
+          tooltip.style("display", "none");
+        });
+    }).catch(error => {
+      console.error("Error loading GeoJSON data:", error);
+    });
+  </script>
+</body>
+</html>

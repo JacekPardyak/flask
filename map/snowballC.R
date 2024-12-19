@@ -1,0 +1,5 @@
+library(SnowballC)
+ss
+
+getStemLanguages()
+

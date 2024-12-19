@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Read CSV with D3.js</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <h1>D3.js Read CSV Example</h1>
+  <script>
+    // Path to the CSV file
+    const csvFile = "data/employees.csv";
+
+    // Load the CSV file
+    d3.csv(csvFile).then(data => {
+      // Iterate through the data and log the values
+      data.forEach(row => {
+        console.log("Name:", row.Name);
+        console.log("Age:", row.Age);
+      });
+    }).catch(error => {
+      console.error("Error loading CSV:", error);
+    });
+  </script>
+</body>
+</html>
