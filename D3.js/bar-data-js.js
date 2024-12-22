@@ -1,4 +1,4 @@
-const csvFile = "./D3.js/bar-data.csv";
+const csvFile = "bar-data.csv";
 
 // Read the CSV file
 d3.csv(csvFile).then(data => {
