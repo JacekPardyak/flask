@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zoomable Map</title>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+          <script src="https://d3js.org/topojson.v3.min.js"></script>
+            <style>
+            body {
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+            }
+          svg {
+            display: block;
+            margin: auto;
+          }
+          </style>
+            </head>
+            <body>
+            <script>
+            const width = 975;
+          const height = 610;
+          
+          const svg = d3.select('body').append('svg')
+          .attr('viewBox', [0, 0, width, height])
+          .style('width', '100%')
+          .style('height', 'auto');
+          
+          const projection = d3.geoAlbersUsa().scale(1300).translate([width / 2, height / 2]);
+          const path = d3.geoPath(projection);
+          
+          const zoom = d3.zoom()
+          .scaleExtent([1, 8])
+          .on('zoom', (event) => {
+            g.attr('transform', event.transform);
+            g.attr('stroke-width', 1 / event.transform.k);
+          });
+          
+          svg.call(zoom);
+          
+          const g = svg.append('g');
+          
+          // Load TopoJSON data
+          d3.json('https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json').then(us => {
+            const states = g.selectAll('path')
+            .data(topojson.feature(us, us.objects.states).features)
+            .join('path')
+            .attr('fill', '#ddd')
+            .attr('stroke', '#333')
+            .attr('stroke-width', 0.5)
+            .attr('d', path)
+            .on('click', clicked);
+            
+            states.append('title')
+            .text(d => d.properties.name);
+            
+            g.append('path')
+            .datum(topojson.mesh(us, us.objects.states, (a, b) => a !== b))
+            .attr('fill', 'none')
+            .attr('stroke', '#fff')
+            .attr('stroke-linejoin', 'round')
+            .attr('d', path);
+          });
+          
+          function clicked(event, d) {
+            const [[x0, y0], [x1, y1]] = path.bounds(d);
+            event.stopPropagation();
+            
+            svg.transition().duration(750).call(
+              zoom.transform,
+              d3.zoomIdentity
+              .translate(width / 2, height / 2)
+              .scale(Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height)))
+              .translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
+              d3.pointer(event, svg.node())
+            );
+          }
+          </script>
+            </body>
+            </html>
+            
