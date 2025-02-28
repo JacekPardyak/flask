@@ -1,83 +1,149 @@
 <!DOCTYPE html>
-  <html lang="en">
-    <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Zoomable Map</title>
-        <script src="https://d3js.org/d3.v7.min.js"></script>
-          <script src="https://d3js.org/topojson.v3.min.js"></script>
-            <style>
-            body {
-              font-family: Arial, sans-serif;
-              margin: 0;
-              padding: 0;
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        svg {
+            border: 1px solid #ccc;
+        }
+
+        .tooltip {
+            position: absolute;
+            padding: 5px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            pointer-events: none;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            font-size: 12px;
+        }
+
+        .province {
+            cursor: pointer;
+        }
+
+        .municipality {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <svg id="map" width="800" height="600"></svg>
+    <div id="tooltip" class="tooltip" style="display: none;"></div>
+    <script>
+        // URLs
+        const provinceUrl = 'https://service.pdok.nl/cbs/gebiedsindelingen/2024/wfs/v1_0?request=GetFeature&service=WFS&version=2.0.0&typeName=provincie_gegeneraliseerd&outputFormat=json&srsName=urn:ogc:def:crs:EPSG::4326';
+        const municipalityUrl = 'https://service.pdok.nl/cbs/gebiedsindelingen/2024/wfs/v1_0?request=GetFeature&service=WFS&version=2.0.0&typeName=gemeente_gegeneraliseerd&outputFormat=json&srsName=urn:ogc:def:crs:EPSG::4326';
+        const mappingUrl = 'https://raw.githubusercontent.com/JacekPardyak/flask/main/province_of_the_commune.json';
+
+        // SVG dimensions
+        const width = 800;
+        const height = 600;
+
+        const svg = d3.select('#map');
+        const tooltip = d3.select('#tooltip');
+
+        const projection = d3.geoMercator()
+            .center([5.5, 52.2]) // Center on the Netherlands
+            .scale(7000) // Adjust scale
+            .translate([width / 2, height / 2]);
+
+        const path = d3.geoPath().projection(projection);
+
+        // Fetch data and initialize the map
+        Promise.all([
+            d3.json(provinceUrl),
+            d3.json(municipalityUrl),
+            d3.json(mappingUrl)
+        ]).then(([provinceData, municipalityData, mappingData]) => {
+            // Render provinces
+            const provinces = svg.append('g').attr('id', 'provinces');
+            provinces.selectAll('.province')
+                .data(provinceData.features)
+                .enter()
+                .append('path')
+                .attr('class', 'province')
+                .attr('d', path)
+                .attr('fill', 'lightblue')
+                .attr('stroke', '#333')
+                .on('mouseover', (event, d) => {
+                    d3.select(event.target).attr('fill', 'orange');
+                    tooltip.style('display', 'block')
+                        .html(`<strong>${d.properties.statnaam}</strong>`);
+                })
+                .on('mousemove', (event) => {
+                    tooltip.style('left', event.pageX + 10 + 'px')
+                        .style('top', event.pageY + 10 + 'px');
+                })
+                .on('mouseout', (event) => {
+                    d3.select(event.target).attr('fill', 'lightblue');
+                    tooltip.style('display', 'none');
+                })
+                .on('click', (event, province) => {
+                    zoomToProvince(province);
+                    showMunicipalities(province.properties.statnaam, municipalityData, mappingData);
+                });
+
+            // Zoom function
+            function zoomToProvince(province) {
+                const [[x0, y0], [x1, y1]] = path.bounds(province);
+                const scale = Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height));
+                const translate = [(width - scale * (x0 + x1)) / 2, (height - scale * (y0 + y1)) / 2];
+
+                svg.transition().duration(750).call(
+                    d3.zoom().transform,
+                    d3.zoomIdentity.translate(translate[0], translate[1]).scale(scale)
+                );
             }
-          svg {
-            display: block;
-            margin: auto;
-          }
-          </style>
-            </head>
-            <body>
-            <script>
-            const width = 975;
-          const height = 610;
-          
-          const svg = d3.select('body').append('svg')
-          .attr('viewBox', [0, 0, width, height])
-          .style('width', '100%')
-          .style('height', 'auto');
-          
-          const projection = d3.geoAlbersUsa().scale(1300).translate([width / 2, height / 2]);
-          const path = d3.geoPath(projection);
-          
-          const zoom = d3.zoom()
-          .scaleExtent([1, 8])
-          .on('zoom', (event) => {
-            g.attr('transform', event.transform);
-            g.attr('stroke-width', 1 / event.transform.k);
-          });
-          
-          svg.call(zoom);
-          
-          const g = svg.append('g');
-          
-          // Load TopoJSON data
-          d3.json('https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json').then(us => {
-            const states = g.selectAll('path')
-            .data(topojson.feature(us, us.objects.states).features)
-            .join('path')
-            .attr('fill', '#ddd')
-            .attr('stroke', '#333')
-            .attr('stroke-width', 0.5)
-            .attr('d', path)
-            .on('click', clicked);
-            
-            states.append('title')
-            .text(d => d.properties.name);
-            
-            g.append('path')
-            .datum(topojson.mesh(us, us.objects.states, (a, b) => a !== b))
-            .attr('fill', 'none')
-            .attr('stroke', '#fff')
-            .attr('stroke-linejoin', 'round')
-            .attr('d', path);
-          });
-          
-          function clicked(event, d) {
-            const [[x0, y0], [x1, y1]] = path.bounds(d);
-            event.stopPropagation();
-            
-            svg.transition().duration(750).call(
-              zoom.transform,
-              d3.zoomIdentity
-              .translate(width / 2, height / 2)
-              .scale(Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height)))
-              .translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
-              d3.pointer(event, svg.node())
-            );
-          }
-          </script>
-            </body>
-            </html>
-            
+
+            // Show municipalities
+            function showMunicipalities(provinceName, municipalityData, mappingData) {
+                // Clear existing municipalities
+                svg.select('#municipalities').remove();
+
+                // Filter municipalities in the clicked province
+                const municipalitiesInProvince = Object.entries(mappingData)
+                    .filter(([municipality, province]) => province === provinceName)
+                    .map(([municipality]) => municipality);
+
+                const filteredMunicipalities = municipalityData.features.filter(d =>
+                    municipalitiesInProvince.includes(d.properties.statnaam)
+                );
+
+                // Add municipalities
+                const municipalities = svg.append('g').attr('id', 'municipalities');
+                municipalities.selectAll('.municipality')
+                    .data(filteredMunicipalities)
+                    .enter()
+                    .append('path')
+                    .attr('class', 'municipality')
+                    .attr('d', path)
+                    .attr('fill', '#f0a')
+                    .attr('stroke', '#555')
+                    .on('mouseover', (event, d) => {
+                        d3.select(event.target).attr('fill', '#faa');
+                        tooltip.style('display', 'block')
+                            .html(`<strong>${d.properties.statnaam}</strong>`);
+                    })
+                    .on('mousemove', (event) => {
+                        tooltip.style('left', event.pageX + 10 + 'px')
+                            .style('top', event.pageY + 10 + 'px');
+                    })
+                    .on('mouseout', (event) => {
+                        d3.select(event.target).attr('fill', '#f0a');
+                        tooltip.style('display', 'none');
+                    });
+            }
+        }).catch(error => {
+            console.error('Error loading data:', error);
+        });
+    </script>
+</body>
+</html>
